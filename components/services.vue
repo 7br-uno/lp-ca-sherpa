@@ -1,5 +1,5 @@
 <template>
-  <div class="grey lighten-5">
+  <div class="grey lighten-5" id="services">
     <v-container pb-16 pt-8>
       <v-row>
         <v-col cols="12" class="d-flex justify-center pb-0">
@@ -22,19 +22,39 @@
           </div>
         </v-col>
         <v-col cols="12" sm="6" md="6" lg="4">
-          <v-card color="indigo lighten-2" class="pa-4 d-flex justify-center text-center white--text card__atuacao">
+          <v-card
+            color="indigo lighten-2"
+            class="
+              pa-4
+              d-flex
+              justify-center
+              text-center
+              white--text
+              card__atuacao
+            "
+          >
             Te ajudamos a se posicionar e definir objetivos
           </v-card>
         </v-col>
         <v-col cols="12" sm="6" md="6" lg="4">
-          <v-card color="indigo lighten-2" class="pa-4 d-flex justify-center text-center white--text card__atuacao">
+          <v-card
+            color="indigo lighten-2"
+            class="
+              pa-4
+              d-flex
+              justify-center
+              text-center
+              white--text
+              card__atuacao
+            "
+          >
             Fazemos o serviço braçal pra sua jornada ficar mais leve
           </v-card>
         </v-col>
       </v-row>
       <v-row>
         <v-col cols="12" class="d-flex justify-center">
-          <div class=" indigo--text text-h4 text-center text-uppercase mb-10">
+          <div class="indigo--text text-h4 text-center text-uppercase mb-10">
             Conheça nossos pacotes de serviços
           </div>
         </v-col>
@@ -54,9 +74,25 @@
               <div class="text-h6 text-uppercase font-weight-bold">
                 {{ service.title }}
               </div>
-              <div class="text-body-2 mb-16">
+              <div class="text-body-2 mb-2">
                 {{ service.subtitle }}
               </div>
+              <div
+                class="
+                  indigo
+                  lighten-2
+                  cicle
+                  d-flex
+                  align-center
+                  justify-center
+                  white--text
+                  text-h6
+                  font-weight-bold
+                "
+              >
+                {{ service.value }}
+              </div>
+
               <div class="pb-8 px-2">
                 <ul>
                   <li
@@ -69,19 +105,9 @@
                   </li>
                 </ul>
               </div>
-              <div
-                class="
-                  c-value
-                  indigo
-                  white--text
-                  d-flex
-                  justify-center
-                  align-center
-                  font-weight-bold
-                "
-              >
-                {{ service.value }}
-              </div>
+              <v-btn class="indigo white--text rounded-0 py-8 c-value">
+                Aderir
+              </v-btn>
             </v-card>
           </v-hover>
         </v-col>
@@ -103,39 +129,38 @@ export default {
             "Preparação das páginas",
             "Suporte com 8 postagens de conteúdos do Studio",
             "2 conteúdos personalizados/mês",
+            "Orientação para conteúdo autoral",
+          ],
+        },
+        {
+          title: "Base",
+          subtitle: "Para quem já tem Studio play",
+          value: "499,00/mês",
+          listItens: [
+            "Preparação das páginas",
+            "Suporte ao corretor com 12 postagens de conteúdos do Studio",
+            "4 conteúdos personalizados/mês",
+            "Orientação para conteúdo autoral",
+          ],
+        },
+        {
+          title: "Himalaia",
+          subtitle: "Para quem já tem Studio play",
+          value: "799,00/mês",
+          listItens: [
+            "Suporte ao corretor com 16 postagens 12 do cliente Agente Studio e 4 conteúdos personalizados",
+            "2 anúncios (investimento em tráfego a parte)",
             "Orientação para conteúdo autora",
           ],
         },
         {
-          title: "Nepal",
-          subtitle: "Para quem já tem Studio play",
-          value: "299,00/mês",
+          title: "Everest",
+          subtitle: "",
+          value: "1399,00/mês",
           listItens: [
             "Preparação das páginas",
-            "Suporte com 8 postagens de conteúdos do Studio",
-            "2 conteúdos personalizados/mês",
-            "Orientação para conteúdo autora",
-          ],
-        },
-        {
-          title: "Nepal",
-          subtitle: "Para quem já tem Studio play",
-          value: "299,00/mês",
-          listItens: [
-            "Preparação das páginas",
-            "Suporte com 8 postagens de conteúdos do Studio",
-            "2 conteúdos personalizados/mês",
-            "Orientação para conteúdo autora",
-          ],
-        },
-        {
-          title: "Nepal",
-          subtitle: "Para quem já tem Studio play",
-          value: "299,00/mês",
-          listItens: [
-            "Preparação das páginas",
-            "Suporte com 8 postagens de conteúdos do Studio",
-            "2 conteúdos personalizados/mês",
+            "Post todo dia",
+            "1 anuncio por semana (investimento em tráfego a parte)",
             "Orientação para conteúdo autora",
           ],
         },
@@ -147,11 +172,13 @@ export default {
 <style lang="scss" scoped>
 .service {
   width: 280px;
+  height: 600px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .c-value {
   width: 100%;
-  height: 60px;
 }
 
 ul {
@@ -161,5 +188,12 @@ ul {
   height: 80px;
   display: flex;
   align-items: center;
+}
+.cicle {
+  height: 150px;
+  width: 150px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
 </style>

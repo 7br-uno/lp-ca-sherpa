@@ -5,3 +5,7 @@
     </v-main>
   </v-app>
 </template>
+
+<style lang="scss">
+  *{scroll-behavior: smooth !important;}
+</style>
