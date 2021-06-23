@@ -3,7 +3,7 @@
     <v-container py-16>
       <v-row style="height: 100vh">
         <v-col cols="12" sm="12" md="6"  lg="6" class="d-flex flex-column  align-center justify-center">
-          <div class="margen__decoration text-center">
+          <div class="text-center">
             <div class="indigo--text darken-4 body-1 mb-4">
               Após 3 anos oferecendo conteúdo de MKT Digital para Corretores de
               Seguros, entendemos que muitos precisam de um apoio maior.
