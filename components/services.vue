@@ -71,12 +71,13 @@
         >
           <v-hover>
             <v-card class="service d-flex flex-column align-center pt-8">
-              <div class="text-h6 text-uppercase font-weight-bold">
+              <span class="trace grey lighten-1 mb-4"></span>
+              <div class="text-h6 text-uppercase font-weight-bold mb-2">
                 {{ service.title }}
               </div>
-              <div class="text-body-2 mb-2">
+              <!-- <div class="text-body-2 mb-2">
                 {{ service.subtitle }}
-              </div>
+              </div> -->
               <div
                 class="
                   indigo
@@ -88,6 +89,7 @@
                   white--text
                   text-h6
                   font-weight-bold
+                  mb-4
                 "
               >
                 {{ service.value }}
@@ -98,14 +100,14 @@
                   <li
                     v-for="(listItem, i) in service.listItens"
                     :key="i"
-                    class="py-2"
+                    class="pb-2"
                   >
-                    <v-icon small color="indigo"> mdi-check-bold </v-icon>
+                    <v-icon long color="indigo"> mdi-check-circle </v-icon>
                     {{ listItem }}
                   </li>
                 </ul>
               </div>
-              <v-btn class="indigo white--text rounded-0 py-8 c-value">
+              <v-btn class="indigo white--text py-4 mb-16">
                 Aderir
               </v-btn>
             </v-card>
@@ -172,7 +174,6 @@ export default {
 <style lang="scss" scoped>
 .service {
   width: 280px;
-  height: 600px;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -185,9 +186,14 @@ ul {
   list-style: none;
 }
 .card__atuacao {
-  height: 80px;
   display: flex;
   align-items: center;
+}
+.trace {
+  width: 68px;
+  height: 6px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 .cicle {
   height: 150px;
@@ -195,5 +201,6 @@ ul {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+
 }
 </style>
