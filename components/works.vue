@@ -1,5 +1,5 @@
 <template>
-  <div class="indigo" id="work">
+  <div class="bg-work" id="work">
     <v-container py-16>
       <v-row class="mb-10">
         <v-col cols="12">
@@ -11,7 +11,7 @@
               font-weight-bold
               mb-16
               text-center
-              white--text
+              indigo--text
             "
           >
             Nosso trabalho de desenvolvimento web
@@ -20,8 +20,8 @@
       </v-row>
       <v-row >
         <v-col
-          lg="8"
-          md="8"
+          lg="12"
+          md="12"
           sm="12"
           xs="12"
           cols="12"
@@ -46,7 +46,8 @@
                       card__work
                       rounded-circle
                       d-inline-block
-                      white
+                      indigo
+                      lighten-2
                       d-flex
                       flex-column
                       justify-center
@@ -54,10 +55,10 @@
                       text-center
                     "
                   >
-                    <v-icon x-large color="grey">
+                    <v-icon x-large color="white">
                       {{ work.icon }}
                     </v-icon>
-                    <div class="text-body-1 mt-2 grey--text">
+                    <div class="text-body-1 mt-2 white--text">
                       {{ work.title }}
                     </div>
                   </div>
@@ -66,7 +67,7 @@
             </v-col>
           </v-row>
         </v-col>
-        <v-col
+        <!-- <v-col
           lg="4"
           md="4"
           sm="12"
@@ -75,7 +76,7 @@
           class="d-flex justify-center flex-column align-center"
         >
           IMG
-        </v-col>
+        </v-col> -->
       </v-row>
     </v-container>
   </div>
@@ -113,5 +114,12 @@ export default {
   height: 200px;
   text-align: center;
   width: 200px;
+}
+
+.bg-work {
+  background-image: url('/img/bolas.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
 }
 </style>

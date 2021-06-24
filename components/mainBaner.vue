@@ -1,5 +1,5 @@
 <template>
-  <div class="grey lighten-5">
+  <div class="grey lighten-5 bg-main">
     <v-container py-16>
       <v-row style="height: 100vh">
         <v-col cols="12" sm="12" md="6"  lg="6" class="d-flex flex-column  align-center justify-center">
@@ -21,11 +21,6 @@
             </div>
           </div>
         </v-col>
-         <v-col cols="12" sm="12" md="6"  lg="6" class="d-flex flex-column align-center justify-center">
-          <div>
-            IMG
-          </div>
-        </v-col>
       </v-row>
     </v-container>
   </div>
@@ -33,5 +28,11 @@
 
 
 <style lang="scss" scoped>
-
+.bg-main {
+  background: url('/img/background-sherpa.png');
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+}
 </style>
