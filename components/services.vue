@@ -1,46 +1,6 @@
 <template>
   <div class="grey lighten-5" id="services">
     <v-container py-16>
-      <div class="text-h5 text-center text-uppercase">
-        Redes sociais vão alêm de postagens,<br>existem estratégias para que você se conecte com seu público.
-      </div>
-      <v-row class="my-10">
-        <v-col cols="12" lg="4">
-          <div class="card__atuacao d-flex justify-center text-h5">
-            Atuamos de duas formas:
-          </div>
-        </v-col>
-        <v-col cols="12" sm="6" md="6" lg="4">
-          <v-card
-            color="indigo lighten-2"
-            class="
-              pa-4
-              d-flex
-              justify-center
-              text-center
-              white--text
-              card__atuacao
-            "
-          >
-            Te ajudamos a se posicionar e definir objetivos
-          </v-card>
-        </v-col>
-        <v-col cols="12" sm="6" md="6" lg="4">
-          <v-card
-            color="indigo lighten-2"
-            class="
-              pa-4
-              d-flex
-              justify-center
-              text-center
-              white--text
-              card__atuacao
-            "
-          >
-            Fazemos o serviço braçal pra sua jornada ficar mais leve
-          </v-card>
-        </v-col>
-      </v-row>
       <v-row>
         <v-col cols="12" class="d-flex justify-center">
           <div class="indigo--text text-h4 text-center text-uppercase mb-10">
@@ -59,11 +19,11 @@
           class="d-flex justify-center"
         >
           <v-hover>
-            <v-card class="service d-flex flex-column align-center pt-8">
-              <span class="trace grey lighten-1 mb-4"></span>
-              <div class="text-h6 text-uppercase font-weight-bold mb-2">
+            <v-card class="service d-flex flex-column align-center pt-2">
+              <span class="mb-2"></span>
+              <!-- <div class="text-h6 text-uppercase font-weight-bold mb-2">
                 {{ service.title }}
-              </div>
+              </div> -->
               <!-- <div class="text-body-2 mb-2">
                 {{ service.subtitle }}
               </div> -->
@@ -78,10 +38,15 @@
                   white--text
                   text-h6
                   font-weight-bold
-                  mb-4
+                  my-4
                 "
               >
-                {{ service.value }}
+              <div class="d-flex flex-column justify-center align-center">
+                <div class="text-h6 text-uppercase font-weight-bold mb-0">
+                  {{ service.title }}
+                </div>
+                <span class="trace white"></span>
+              </div>
               </div>
 
               <div class="pb-8 px-2">
