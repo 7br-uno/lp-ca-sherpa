@@ -1,21 +1,10 @@
 <template>
   <div class="grey lighten-5" id="services">
-    <v-container pb-16 pt-8>
-      <v-row>
-        <v-col cols="12" class="d-flex justify-center pb-0">
-          <div class="text-h5 text-center text-uppercase">
-            Redes sociais vão alêm de postagens,
-          </div>
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col cols="12" class="d-flex justify-center pt-0">
-          <div class="text-h5 text-center text-uppercase mb-10">
-            existem estratégias para que você se conecte com seu público.
-          </div>
-        </v-col>
-      </v-row>
-      <v-row class="mb-10">
+    <v-container py-16>
+      <div class="text-h5 text-center text-uppercase">
+        Redes sociais vão alêm de postagens,<br>existem estratégias para que você se conecte com seu público.
+      </div>
+      <v-row class="my-10">
         <v-col cols="12" lg="4">
           <div class="card__atuacao d-flex justify-center text-h5">
             Atuamos de duas formas:

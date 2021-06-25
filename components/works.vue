@@ -1,7 +1,7 @@
 <template>
   <div class="bg-work" id="work">
     <v-container py-16>
-      <v-row class="mb-10">
+      <v-row>
         <v-col cols="12">
           <div
             class="
@@ -9,7 +9,6 @@
               justify-center
               text-h4 text-uppercase
               font-weight-bold
-              mb-16
               text-center
               indigo--text
             "
@@ -18,34 +17,29 @@
           </div>
         </v-col>
       </v-row>
-      <v-row >
+      <v-row>
         <v-col
-          lg="12"
-          md="12"
-          sm="12"
-          xs="12"
-          cols="12"
-          class="d-flex justify-center align-center"
+          class="px-16 mt-8"
+          lg="8"
+          offset-lg="2"
         >
           <v-row>
             <v-col
-              md="4"
-              lg="4"
-              sm="6"
-              cols="12"
-              class="d-flex justify-center"
               v-for="(work, i) in works"
               :key="i"
+              cols="12"
+              sm="6"
+              md="4"
             >
               <v-hover>
                 <template v-slot:default="{ hover }">
                   <div
                     :class="`elevation-${hover ? 16 : 4}`"
                     class="
+                      mx-auto
                       transition-swing
                       card__work
                       rounded-circle
-                      d-inline-block
                       indigo
                       lighten-2
                       d-flex
@@ -67,16 +61,6 @@
             </v-col>
           </v-row>
         </v-col>
-        <!-- <v-col
-          lg="4"
-          md="4"
-          sm="12"
-          xs="12"
-          cols="12"
-          class="d-flex justify-center flex-column align-center"
-        >
-          IMG
-        </v-col> -->
       </v-row>
     </v-container>
   </div>
@@ -103,11 +87,6 @@ export default {
   },
 };
 </script>
-export default {
-  data: () => {
-    return {
-
-    }
 
 <style lang="scss" scoped>
 .card__work {
