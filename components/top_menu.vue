@@ -13,6 +13,7 @@
             class="d-flex align-center"
         >
          <a href="#" class="indigo--text mr-auto">Logo</a>
+         <a href="#acting" class="indigo--text mr-4">Ações</a>
          <a href="#services" class="indigo--text mr-4">Nossos serviços</a>
          <a href="#work" class="indigo--text">O que fazemos</a>
         </v-col>
