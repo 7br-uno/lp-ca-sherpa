@@ -48,7 +48,7 @@
           </v-row>
         </v-col>
         <v-col  cols="12" sm="12" md="12" lg="6" class="d-flex justify-center align-center">
-          IMG
+          <img src="/img/estrategia.png" class="responsive_img" alt="">
         </v-col>
       </v-row>
     </v-container>
@@ -62,5 +62,9 @@ export default {};
 .card__atuacao {
   display: flex;
   align-items: center;
+}
+.responsive_img {
+  max-width: 100%;
+  height: auto;
 }
 </style>
