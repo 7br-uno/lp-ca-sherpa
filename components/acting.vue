@@ -2,7 +2,7 @@
   <div class="grey lighten-4" id="acting">
     <v-container py-16>
       <v-row>
-        <v-col cols="12" class="text-h5 text-center text-uppercase mb-8">
+        <v-col cols="12" class="text-h5 text-center text-uppercase mb-8 primary--text">
          Redes sociais vão alêm de postagens,<br />existem estratégias para que
         você se conecte com seu público.
         </v-col>
@@ -17,7 +17,7 @@
           <v-row class="mb-8">
             <v-col cols="12" sm="6" md="6" lg="6">
               <v-card
-                color="indigo lighten-2"
+                color="accent"
                 class="
                   pa-4
                   d-flex
@@ -32,7 +32,7 @@
             </v-col>
             <v-col cols="12" sm="6" md="6" lg="6">
               <v-card
-                color="indigo lighten-2"
+                color="accent"
                 class="
                   pa-4
                   d-flex

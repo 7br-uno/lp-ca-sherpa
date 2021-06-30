@@ -3,7 +3,7 @@
     <v-container py-16>
       <v-row>
         <v-col cols="12" class="d-flex justify-center">
-          <div class="indigo--text text-h4 text-center text-uppercase mb-10">
+          <div class="primary--text text-h4 text-center text-uppercase mb-10">
             Conheça nossos pacotes de serviços
           </div>
         </v-col>
@@ -28,9 +28,8 @@
                 {{ service.subtitle }}
               </div> -->
               <div
+                :class="i % 2 == 0 ? 'secondary' : 'accent'"
                 class="
-                  indigo
-                  lighten-2
                   cicle
                   d-flex
                   align-center
@@ -50,19 +49,29 @@
               </div>
 
               <div class="pb-8 px-2">
-                <ul>
+                <ul v-if="i % 2 == 0">
                   <li
                     v-for="(listItem, i) in service.listItens"
                     :key="i"
                     class="pb-2"
                   >
-                    <v-icon long color="indigo"> mdi-check-circle </v-icon>
+                    <v-icon long color="secondary"> mdi-check-circle </v-icon>
+                    {{ listItem }}
+                  </li>
+                </ul>
+                <ul v-else>
+                  <li
+                    v-for="(listItem, i) in service.listItens"
+                    :key="i"
+                    class="pb-2"
+                  >
+                    <v-icon long color="accent"> mdi-check-circle </v-icon>
                     {{ listItem }}
                   </li>
                 </ul>
               </div>
-              <v-btn class="indigo white--text py-4 mb-16">
-                Aderir
+              <v-btn class="white--text py-4 mb-16" :class="i % 2 == 0 ? 'secondary' : 'accent'">
+                Solicite prorposta
               </v-btn>
             </v-card>
           </v-hover>
