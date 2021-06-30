@@ -12,10 +12,11 @@
             cols="12"
             class="d-flex align-center"
         >
-         <a href="#" class="indigo--text mr-auto">Logo</a>
-         <a href="#acting" class="indigo--text mr-4">Ações</a>
-         <a href="#services" class="indigo--text mr-4">Nossos serviços</a>
-         <a href="#work" class="indigo--text">O que fazemos</a>
+         <a href="#" class="accent--text mr-auto">Logo</a>
+         <a href="#sherpa" class="accent--text mr-4">Quem somos</a>
+         <a href="#acting" class="accent--text mr-4">Ações</a>
+         <a href="#services" class="accent--text mr-4">Nossos serviços</a>
+         <a href="#work" class="accent--text">O que fazemos</a>
         </v-col>
       </v-row>
     </v-container>

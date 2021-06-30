@@ -4,11 +4,11 @@
       <v-row style="height: 100vh">
         <v-col cols="12" sm="12" md="6"  lg="6" class="d-flex flex-column  align-center justify-center">
           <div class="text-center">
-            <div class="indigo--text darken-4 text-h3 mb-4">
-              TITULO
+            <div class="primary--text text-h2 mb-4">
+              Você quer o topo?
             </div>
-            <div>
-              Subtitulo
+            <div class="text-subtitle-1">
+               O Marketing Digital exige dedicação, paciência e o desenvolvimento de novas habilidades.
             </div>
           </div>
         </v-col>

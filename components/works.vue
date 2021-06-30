@@ -10,7 +10,7 @@
               text-h4 text-uppercase
               font-weight-bold
               text-center
-              indigo--text
+              accent--text
             "
           >
             Nosso trabalho de desenvolvimento web
@@ -40,8 +40,7 @@
                       transition-swing
                       card__work
                       rounded-circle
-                      indigo
-                      lighten-2
+                      info
                       d-flex
                       flex-column
                       justify-center

@@ -54,10 +54,10 @@ export default {
       light: true,
       themes: {
         light: {
-          primary: colors.blue,
-          accent: colors.grey,
-          secondary: colors.amber,
-          info: colors.teal.lighten1,
+          primary: "#F2682A",
+          accent: "#005DA6" ,
+          secondary: "#FFC530",
+          info: "#8FC7E7",
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3
