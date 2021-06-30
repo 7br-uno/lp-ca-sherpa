@@ -12,10 +12,7 @@
             justify-center
           "
         >
-          <div>
-            Nós seremos o <b>Sherpa</b> para este
-            mercado
-          </div>
+          <div>Nós seremos o <b>Sherpa</b> para este mercado</div>
         </v-col>
       </v-row>
       <v-row>
@@ -26,7 +23,7 @@
           lg="6"
           class="d-flex align-center justify-center"
         >
-          IMG
+          <img src="/img/mochila.png" class="responsive_img" alt="" />
         </v-col>
 
         <v-col
@@ -48,11 +45,16 @@
             Quando se propõe a subir o Everest, os alpinistas treinam, se
             preparam, se equipam.
           </div>
-          <div class="body-1 mb-4">
-              Invariavelmente precisam de um Sherpa!
-          </div>
+          <div class="body-1 mb-4">Invariavelmente precisam de um Sherpa!</div>
         </v-col>
       </v-row>
     </v-container>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.responsive_img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
