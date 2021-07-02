@@ -109,22 +109,18 @@ a {
 }
 .logo-sherpa-1 {
   margin-top: 10px;
-  height: 80px;
+  height: 60px;
   cursor: pointer;
-  animation: fadeIn 0.1s;
 }
 
 .logo-sherpa {
   margin-top: -30px;
   position: absolute;
   height: 150px;
-  animation: fadeIn 0.1s;
+  transition: height 0.25s;
+  transition-timing-function: ease-in
 }
 
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
 
 .menu-links {
   color: white;
