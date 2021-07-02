@@ -28,7 +28,7 @@
                 {{ service.subtitle }}
               </div> -->
               <div
-                :class="i % 2 == 0 ? 'secondary' : 'accent'"
+                :class="i % 2 == 0 ? 'primary' : 'accent'"
                 class="
                   cicle
                   d-flex
@@ -55,7 +55,7 @@
                     :key="i"
                     class="pb-2"
                   >
-                    <v-icon long color="secondary"> mdi-check-circle </v-icon>
+                    <v-icon long color="primary"> mdi-check-circle </v-icon>
                     {{ listItem }}
                   </li>
                 </ul>
@@ -70,7 +70,7 @@
                   </li>
                 </ul>
               </div>
-              <v-btn class="white--text py-4 mb-16" :class="i % 2 == 0 ? 'secondary' : 'accent'">
+              <v-btn class="white--text py-4 mb-16" :class="i % 2 == 0 ? 'primary' : 'accent'">
                 Solicite prorposta
               </v-btn>
             </v-card>

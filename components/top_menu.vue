@@ -14,13 +14,13 @@
               v-if="windowTop === 0"
               src="/img/logo-sherpa.png"
               class="logo-sherpa"
-              alt=""
+              alt="Sherpa"
             />
             <img
-              v-else
+              v-if="windowTop > 0"
               src="/img/logo-sherpa-1.png"
               class="logo-sherpa-1"
-              alt=""
+              alt="Sherpa"
             />
           </a>
           <div v-if="$vuetify.breakpoint.mdAndUp">
@@ -108,18 +108,17 @@ a {
   text-decoration: none;
 }
 .logo-sherpa-1 {
+  margin-top: 10px;
   height: 80px;
   cursor: pointer;
-  transition: 0.5s;
-  animation: fadeIn 0.5s;
+  animation: fadeIn 0.1s;
 }
 
 .logo-sherpa {
-  margin-top: -40px;
+  margin-top: -30px;
   position: absolute;
   height: 150px;
-  transition: 0.5s;
-  animation: fadeIn 0.5s;
+  animation: fadeIn 0.1s;
 }
 
 @keyframes fadeIn {

@@ -1,5 +1,5 @@
 <template>
-  <div class="grey lighten-5 bg-main">
+  <div class="grey lighten-4 bg-main">
     <v-container py-16>
       <v-row style="height: 100vh">
         <v-col cols="12" sm="12" md="6"  lg="6" class="d-flex flex-column  align-center justify-center">

@@ -7,7 +7,7 @@
           class="
             primary--text
             text-uppercase text-h4 text-center
-            mb-16
+            mb-5
             d-flex
             justify-center
           "
@@ -31,9 +31,9 @@
           sm="12"
           md="6"
           lg="6"
-          class="d-flex flex-column text-justify align-center justify-center"
+          class="d-flex flex-column text-justify align-center justify-center px-6"
         >
-          <div class="body-1 mb-4 accent--text">
+          <div class="body-1 mb-4">
             Após 3 anos oferecendo conteúdo de MKT Digital para Corretores de
             Seguros, entendemos que muitos precisam de um apoio maior.
           </div>
@@ -54,7 +54,7 @@
 
 <style lang="scss" scoped>
 .responsive_img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 </style>

@@ -7,7 +7,8 @@
             class="
               d-flex
               justify-center
-              text-h4 text-uppercase
+              text-h5
+              text-sm-h4 text-uppercase
               font-weight-bold
               text-center
               accent--text

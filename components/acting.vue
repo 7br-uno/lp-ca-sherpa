@@ -1,6 +1,6 @@
 <template>
-  <div class="grey lighten-4" id="acting">
-    <v-container py-16>
+  <div class="grey lighten-3" id="acting">
+    <v-container pt-16>
       <v-row>
         <v-col cols="12" class="text-h5 text-center text-uppercase mb-8 primary--text">
          Redes sociais vão alêm de postagens,<br />existem estratégias para que
@@ -14,7 +14,7 @@
               Atuamos de duas formas
             </v-col>
           </v-row>
-          <v-row class="mb-8">
+          <v-row class="mb-8 px-6">
             <v-col cols="12" sm="6" md="6" lg="6">
               <v-card
                 color="accent"
@@ -64,7 +64,7 @@ export default {};
   align-items: center;
 }
 .responsive_img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 </style>
