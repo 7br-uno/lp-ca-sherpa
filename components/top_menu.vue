@@ -1,22 +1,72 @@
 <template>
   <v-app-bar
     elevate-on-scroll
-    :color="windowTop === 0 ? 'transparent' : 'white'"
+    :color="windowTop === 0 ? 'transparent' : 'grey lighten-5'"
     dark
     app
     height="80px"
   >
     <v-container class="pa-0">
       <v-row no-gutters>
-        <v-col
-            cols="12"
-            class="d-flex align-center"
-        >
-         <a href="#" class="accent--text mr-auto">Logo</a>
-         <a href="#sherpa" class="accent--text mr-4">Quem somos</a>
-         <a href="#acting" class="accent--text mr-4">Ações</a>
-         <a href="#services" class="accent--text mr-4">Nossos serviços</a>
-         <a href="#work" class="accent--text">O que fazemos</a>
+        <v-col cols="12" class="d-flex align-center">
+          <a href="#" class="mr-auto">
+            <img
+              v-if="windowTop === 0"
+              src="/img/logo-sherpa.png"
+              class="logo-sherpa"
+              alt=""
+            />
+            <img
+              v-else
+              src="/img/logo-sherpa-1.png"
+              class="logo-sherpa-1"
+              alt=""
+            />
+          </a>
+          <div v-if="$vuetify.breakpoint.mdAndUp">
+            <a href="#sherpa" class="accent--text mr-4">Quem somos</a>
+            <a href="#acting" class="accent--text mr-4">Ações</a>
+            <a href="#services" class="accent--text mr-4">Nossos serviços</a>
+            <a href="#work" class="accent--text">O que fazemos</a>
+          </div>
+          <div class="d-flex d-md-none float-right">
+            <v-menu
+              transition="slide-y-transition"
+              bottom
+              min-width="94%"
+              nudge-bottom="50"
+            >
+              <template v-slot:activator="{ on, attrs }">
+                <v-btn
+                  class="mx-2 mr-0"
+                  fab
+                  dark
+                  small
+                  color="accent"
+                  v-bind="attrs"
+                  v-on="on"
+                >
+                  <v-icon color="white"> mdi-menu </v-icon>
+                </v-btn>
+              </template>
+              <v-list>
+                <v-list-item-group color="accent">
+                  <v-list-item to="#sherpa">
+                    <v-list-item-title>Quem somos</v-list-item-title>
+                  </v-list-item>
+                  <v-list-item to="#acting">
+                    <v-list-item-title>Ações</v-list-item-title>
+                  </v-list-item>
+                  <v-list-item to="#services">
+                    <v-list-item-title>Nossos serviços</v-list-item-title>
+                  </v-list-item>
+                  <v-list-item to="#work">
+                    <v-list-item-title>O que fazemos</v-list-item-title>
+                  </v-list-item>
+                </v-list-item-group>
+              </v-list>
+            </v-menu>
+          </div>
         </v-col>
       </v-row>
     </v-container>
@@ -25,12 +75,18 @@
 
 <script>
 export default {
-  data () {
-    return {
-      windowTop: 0
-    }
+  methods: {
+    go_to(link) {
+      window.open(link, "_blank");
+    },
   },
-  mounted(){
+
+  data() {
+    return {
+      windowTop: 0,
+    };
+  },
+  mounted() {
     window.addEventListener("scroll", this.onScroll);
   },
   beforeDestroy() {
@@ -40,15 +96,42 @@ export default {
     onScroll(e) {
       this.windowTop = e.target.documentElement.scrollTop;
     },
-    go_to(link){
+    go_to(link) {
       window.open(link, "_blank");
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
+.logo-sherpa-1 {
+  height: 80px;
+  cursor: pointer;
+  transition: 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+.logo-sherpa {
+  margin-top: -40px;
+  position: absolute;
+  height: 150px;
+  transition: 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.menu-links {
+  color: white;
+  text-decoration: none;
+}
+.fs-14 {
+  font-size: 14px;
+}
 </style>
