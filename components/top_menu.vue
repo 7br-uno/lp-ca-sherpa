@@ -117,7 +117,7 @@ a {
   margin-top: -30px;
   position: absolute;
   height: 150px;
-  transition: height 0.25s;
+  transition: height 0.2s;
   transition-timing-function: ease-in
 }
 
