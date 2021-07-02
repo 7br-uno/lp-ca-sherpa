@@ -48,7 +48,7 @@
           </v-row>
         </v-col>
         <v-col  cols="12" sm="12" md="12" lg="6" class="d-flex justify-center align-center">
-          <img src="/img/estrategia.png" class="responsive_img" alt="">
+          <img src="/sherpa/img/estrategia.png" class="responsive_img" alt="">
         </v-col>
       </v-row>
     </v-container>

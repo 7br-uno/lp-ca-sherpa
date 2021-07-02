@@ -96,7 +96,7 @@ export default {
 }
 
 .bg-work {
-  background-image: url('/img/bolas.png');
+  background-image: url('/sherpa/img/bolas.png');
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;

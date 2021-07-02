@@ -23,7 +23,7 @@
           lg="6"
           class="d-flex align-center justify-center"
         >
-          <img src="/img/mochila.png" class="responsive_img" alt="" />
+          <img src="/sherpa/img/mochila.png" class="responsive_img" alt="" />
         </v-col>
 
         <v-col

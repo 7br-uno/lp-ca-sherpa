@@ -4,17 +4,21 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/sherpa/' 
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - site-ca-sherpa',
-    title: 'site-ca-sherpa',
+    titleTemplate: '%s',
+    title: 'SHERPA - Powered by Cliente Agente',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'pt-br'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Você quer o topo? O Marketing Digital exige dedicação, paciência e o desenvolvimento de novas habilidades.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

@@ -12,13 +12,13 @@
           <a href="#" class="mr-auto">
             <img
               v-if="windowTop === 0"
-              src="/img/logo-sherpa.png"
+              src="/sherpa/img/logo-sherpa.png"
               class="logo-sherpa"
               alt="Sherpa"
             />
             <img
               v-if="windowTop > 0"
-              src="/img/logo-sherpa-1.png"
+              src="/sherpa/img/logo-sherpa-1.png"
               class="logo-sherpa-1"
               alt="Sherpa"
             />

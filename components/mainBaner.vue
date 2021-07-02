@@ -21,7 +21,7 @@
 <style lang="scss" scoped>
 .bg-main {
   margin-top: -80px;
-  background: url('/img/background-sherpa.png');
+  background: url('/sherpa/img/background-sherpa.png');
   text-align: center;
   background-size: cover;
   background-position: right;
