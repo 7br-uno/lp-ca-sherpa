@@ -3,20 +3,19 @@
     <v-container class="pa-0">
       <v-row no-gutters>
         <v-col lg="3" md="3" sm="2" cols="5" class="d-flex align-center">
-          <img src="/img/logo-sherpa-1.png" class="logo" />
+          <img src="/sherpa/img/logo-sherpa-1.png" class="logo" />
         </v-col>
         <v-col lg="6" md="6" sm="10" cols="7" class="d-flex align-center">
           <p class="w-100 mb-0 text-right text-md-center fs-10-pt white--text">
             <nobr>Siga nossas redes sociais:</nobr>
             <nobr>
               <v-btn
-                class="ml-1 pl-2"
+                class="ml-2"
                 text
                 icon
                 color="accent"
-                @click="go_to('')"
+                @click="go_to('https://instagram.com/clienteagente')"
               >
-                <!-- <img alt="Instagram" src="/social/instagram.svg" /> -->
                 <v-icon>mdi-instagram</v-icon>
               </v-btn>
               <v-btn
@@ -25,10 +24,9 @@
                 icon
                 color="accent"
                 @click="
-                  go_to('')
+                  go_to('https://facebook.com/clienteagente')
                 "
               >
-                <!-- <img alt="Facebook" src="/social/facebook.svg" /> -->
                 <v-icon>mdi-facebook</v-icon>
               </v-btn>
               <v-btn
@@ -36,11 +34,18 @@
                 text
                 icon
                 color="accent"
-                @click="go_to('')"
+                @click="go_to('https://www.youtube.com/channel/UCscXKJvlhvWC4uvHXJ80oPg')"
               >
-                <!-- <img alt="Twitter" src="/social/twitter.svg" /> -->
-                <v-icon>mdi-twitter</v-icon>
-
+                <v-icon>mdi-youtube</v-icon>
+              </v-btn>
+              <v-btn
+                class="ml-1"
+                text
+                icon
+                color="accent"
+                @click="go_to('https://www.linkedin.com/company/cliente-agente/')"
+              >
+                <v-icon>mdi-linkedin</v-icon>
               </v-btn>
             </nobr>
           </p>
