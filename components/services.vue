@@ -48,7 +48,7 @@
               </div>
               </div>
 
-              <div class="pb-8 px-2">
+              <div class="pb-4 px-2">
                 <ul v-if="i % 2 == 0">
                   <li
                     v-for="(listItem, i) in service.listItens"
@@ -70,8 +70,8 @@
                   </li>
                 </ul>
               </div>
-              <v-btn class="white--text py-4 mb-16" :class="i % 2 == 0 ? 'primary' : 'accent'">
-                Solicite prorposta
+              <v-btn class="white--text py-4 mb-8" :class="i % 2 == 0 ? 'primary' : 'accent'">
+                Solicite uma prorposta
               </v-btn>
             </v-card>
           </v-hover>
@@ -91,10 +91,10 @@ export default {
           subtitle: "Para quem já tem Studio play",
           value: "299,00/mês",
           listItens: [
-            "Preparação das páginas",
-            "Suporte com 8 postagens de conteúdos do Studio",
-            "2 conteúdos personalizados/mês",
-            "Orientação para conteúdo autoral",
+            "Setup das redes(Instagram e Facebook)",
+            "Suporte com 8 postagens de conteúdos da Cliente Agente Studio",
+            "Elaboração de 2 conteúdos personalizados/mês",
+            "Orientação para produção de conteúdo autoral",
           ],
         },
         {
@@ -102,10 +102,10 @@ export default {
           subtitle: "Para quem já tem Studio play",
           value: "499,00/mês",
           listItens: [
-            "Preparação das páginas",
-            "Suporte ao corretor com 12 postagens de conteúdos do Studio",
-            "4 conteúdos personalizados/mês",
-            "Orientação para conteúdo autoral",
+            "Setup das redes(Instagram e Facebook)",
+            "Suporte ao corretor com 12 postagens de conteúdos da Cliente Agente Studio",
+            "Elaboração de 4 conteúdos personalizados/mês",
+            "Orientação para produção de conteúdo autoral",
           ],
         },
         {
@@ -113,7 +113,9 @@ export default {
           subtitle: "Para quem já tem Studio play",
           value: "799,00/mês",
           listItens: [
-            "Suporte ao corretor com 16 postagens 12 do cliente Agente Studio e 4 conteúdos personalizados",
+            "Setup das redes(Instagran e Facebook)",
+            "Suporte ao corretor com 16 postagens 12 da Cliente Agente Studio",
+            "Elaboração de 4 conteúdos personalizados/mês",
             "2 anúncios (investimento em tráfego a parte)",
             "Orientação para conteúdo autora",
           ],
@@ -123,10 +125,11 @@ export default {
           subtitle: "",
           value: "1399,00/mês",
           listItens: [
-            "Preparação das páginas",
-            "Post todo dia",
-            "1 anuncio por semana (investimento em tráfego a parte)",
-            "Orientação para conteúdo autora",
+            "Orientação sobre posicionamento",
+            "Setup das redes(Instagran e Facebook)",
+            "Suporte com postagens diárias (Studio e personalizadas)",
+            "4 anúncios (investimento em tráfego a parte)",
+            "Orientação para produção de conteúdo autoral",
           ],
         },
       ],
