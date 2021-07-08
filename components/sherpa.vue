@@ -12,7 +12,7 @@
             justify-center
           "
         >
-          <div>Nós seremos o <b>Sherpa</b> para este mercado</div>
+          <div>Nós seremos o <b>Sherpa</b> para o Corretor de Seguros</div>
         </v-col>
       </v-row>
       <v-row>
@@ -38,8 +38,8 @@
             Seguros, entendemos que muitos precisam de um apoio maior.
           </div>
           <div class="body-1 mb-4">
-            As redes sociais e tudo que as envolvem, são uma bagagem extra para
-            o Corretor de seguros
+            As redes sociais e tudo que as envolve, são uma bagagem extra para
+            o Corretor de Seguros
           </div>
           <div class="body-1 mb-4">
             Quando se propõe a subir o Everest, os alpinistas treinam, se

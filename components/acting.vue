@@ -3,7 +3,7 @@
     <v-container pt-16>
       <v-row>
         <v-col cols="12" class="text-h5 text-center text-uppercase mb-8 primary--text">
-         Redes sociais vão alêm de postagens,<br />existem estratégias para que
+         Redes sociais vão além de postagens!<br />Existem estratégias para que
         você se conecte com seu público.
         </v-col>
       </v-row>
@@ -42,7 +42,7 @@
                   card__atuacao
                 "
               >
-                Fazemos o serviço braçal pra sua jornada ficar mais leve
+                Fazemos o serviço braçal para sua jornada ficar mais leve
               </v-card>
             </v-col>
           </v-row>
