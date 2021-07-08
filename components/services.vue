@@ -117,7 +117,7 @@ export default {
             "Suporte ao corretor com 16 postagens 12 da Cliente Agente Studio",
             "Elaboração de 4 conteúdos personalizados/mês",
             "2 anúncios (investimento em tráfego a parte)",
-            "Orientação para conteúdo autora",
+            "Orientação para conteúdo autoral",
           ],
         },
         {
