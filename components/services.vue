@@ -71,7 +71,7 @@
                 </ul>
               </div>
               <v-btn class="white--text py-4 mb-8" :class="i % 2 == 0 ? 'primary' : 'accent'">
-                Solicite uma prorposta
+                Solicite uma proposta
               </v-btn>
             </v-card>
           </v-hover>
