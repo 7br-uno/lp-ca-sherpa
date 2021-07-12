@@ -61,8 +61,8 @@
             &copy; {{ new Date().getFullYear() }} All rights reserved.
           </p>
         </v-col>
-        <v-col cols="12">
-          <p class="mt-10 caption white--text">
+        <v-col cols="12 mb-3 mb-md-0">
+          <p class="mt-10 caption white--text mb-16 mb-md-0">
             Criada em 2018 a Startup Cliente Agente foi pioneira na introdução
             do MKT de indicações para Corretores de Seguros no Brasil. Em 2019,
             lançamos o Studio Play, plataforma de MKT que permite obter

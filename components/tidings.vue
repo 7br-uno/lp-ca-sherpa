@@ -73,19 +73,7 @@ export default {
           link: "https://monitormercantil.com.br/cliente-agente-lanca-plataforma-de-videos-para-as-redes-sociais/",
           title:
             "Cliente Agente lança plataforma de vídeos para as redes sociais",
-        },
-        {
-          img: "https://i0.wp.com/jrs.digital/wp-content/uploads/2021/02/Kleber-de-Paula-Imagem-Divulgacao.jpg?resize=1024%2C813&ssl=1",
-          link: "https://jrs.digital/2021/02/08/startup-cliente-agente-desenvolve-parceria-com-a-porto-seguro/",
-          title:
-            "Startup Cliente Agente desenvolve parceria com a Porto Seguro",
-        },
-        {
-          img: "https://monitormercantil.com.br/wp-content/uploads/2020/11/Rede-sociais-696x617.jpg",
-          link: "https://monitormercantil.com.br/cliente-agente-lanca-plataforma-de-videos-para-as-redes-sociais/",
-          title:
-            "Cliente Agente lança plataforma de vídeos para as redes sociais",
-        },
+        }
       ],
     };
   },
