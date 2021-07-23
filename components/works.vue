@@ -14,7 +14,7 @@
               accent--text
             "
           >
-            Nosso trabalho de desenvolvimento web
+            Evolua o nivel da sua marca
           </div>
         </v-col>
       </v-row>
