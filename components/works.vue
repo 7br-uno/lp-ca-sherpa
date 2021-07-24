@@ -62,6 +62,11 @@
           </v-row>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col offset="3" cols="6" class="d-flex justify-center">
+          <v-btn color="accent" outlined x-large class="px-16 mt-10" href="#services" block> Saiba mais </v-btn>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>

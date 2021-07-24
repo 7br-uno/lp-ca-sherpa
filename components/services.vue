@@ -14,7 +14,7 @@
           md="6"
           lg="3"
           sm="6"
-          v-for="(service, i) in services"
+          v-for="(plane, i) in planes"
           :key="i"
           class="d-flex justify-center"
         >
@@ -37,19 +37,20 @@
                   white--text
                   text-h6
                   font-weight-bold
-                  my-4
+                  mt-4
+                  mb-10
                 "
               >
                 <div class="d-flex flex-column justify-center align-center">
                   <div class="text-h6 text-uppercase font-weight-bold mb-0">
-                    {{ service.title }}
+                    {{ plane.title }}
                   </div>
                   <span class="trace white"></span>
                 </div>
               </div>
 
-              <div class="pb-4 px-2">
-                <ul v-if="i % 2 == 0">
+              <div class="pb-4 px-4 mb-6">
+                <!-- <ul v-if="i % 2 == 0">
                   <li
                     v-for="(listItem, i) in service.listItens"
                     :key="i"
@@ -68,12 +69,20 @@
                     <v-icon long color="accent"> mdi-check-circle </v-icon>
                     {{ listItem }}
                   </li>
-                </ul>
+                </ul> -->
+
+                  <div class="text-body-1 mb-2 d-flex justify-center font-weight-medium">
+                    {{ plane.subtitle }}
+                    <v-icon long :color="i % 2 == 0 ? 'primary' : 'accent'">{{ plane.icon }}</v-icon>
+                  </div>
+                  <div class="text-body-2">
+                    {{ plane.description }}
+                  </div>
               </div>
               <v-btn
                 class="white--text py-4 mb-8"
                 :class="i % 2 == 0 ? 'primary' : 'accent'"
-                @click="msg_whatsapp(service.msg)"
+                @click="msg_whatsapp(plane.msg)"
               >
                 Solicite uma proposta
               </v-btn>
@@ -81,7 +90,7 @@
           </v-hover>
         </v-col>
       </v-row>
-      <v-divider></v-divider>
+      <!-- <v-divider></v-divider>
       <v-row class="mt-6">
         <v-col
           cols="12"
@@ -102,7 +111,7 @@
             {{ plane.description }}
           </div>
         </v-col>
-      </v-row>
+      </v-row> -->
     </v-container>
   </div>
 </template>
@@ -173,6 +182,7 @@ export default {
       ],
       planes: [
         {
+          msg: "Quero conhecer o plano Nepal do projeto Sherpa",
           title: "Nepal",
           subtitle: "Partida",
           icon: "mdi-contain-start",
@@ -180,6 +190,7 @@ export default {
             "Aqui, vamos planejar e seguir construindo a sua comunicação para conectar sua corretora com o público certo",
         },
         {
+          msg: "Quero conhecer o plano Base do projeto Sherpa",
           title: "Base",
           subtitle: "Ambientação",
           icon: "mdi-desktop-mac-dashboard",
@@ -187,6 +198,7 @@ export default {
             "Estamos juntos na jornada, vamos nos preparar para começar a escalar",
         },
         {
+          msg: "Quero conhecer o plano Himalaia do projeto Sherpa",
           title: "Himalaia",
           subtitle: "Ritmo",
           icon: "mdi-run-fast",
@@ -194,6 +206,7 @@ export default {
             "Já na trajetória certa, vamos manter a frequência e criar autoridade",
         },
         {
+          msg: "Quero conhecer o plano Everest do projeto Sherpa",
           title: "Everest",
           subtitle: "Conquista",
           icon: "mdi-seal",
