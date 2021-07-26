@@ -72,10 +72,10 @@
                 </ul> -->
 
                   <div class="text-body-1 mb-2 d-flex justify-center font-weight-medium">
+                    <v-icon class="mr-2" long :color="i % 2 == 0 ? 'primary' : 'accent'">{{ plane.icon }}</v-icon>
                     {{ plane.subtitle }}
-                    <v-icon long :color="i % 2 == 0 ? 'primary' : 'accent'">{{ plane.icon }}</v-icon>
                   </div>
-                  <div class="text-body-2">
+                  <div class="text-body-2 px-3">
                     {{ plane.description }}
                   </div>
               </div>
