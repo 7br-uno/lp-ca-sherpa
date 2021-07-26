@@ -45,6 +45,9 @@
                 Fazemos o serviço braçal para sua jornada ficar mais leve
               </v-card>
             </v-col>
+            <v-col cols="12">
+              <v-btn color="accent" outlined x-large class="px-16 mt-10" href="#services" block> Saiba mais </v-btn>
+            </v-col>
           </v-row>
         </v-col>
         <v-col  cols="12" sm="12" md="12" lg="6" class="d-flex justify-center align-center">

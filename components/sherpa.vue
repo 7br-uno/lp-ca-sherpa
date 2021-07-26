@@ -46,6 +46,7 @@
             preparam, se equipam.
           </div>
           <div class="body-1 mb-4">Invariavelmente precisam de um Sherpa!</div>
+          <v-btn color="primary" outlined x-large class="px-16 mt-10" href="#services" block> Saiba mais </v-btn>
         </v-col>
       </v-row>
     </v-container>
