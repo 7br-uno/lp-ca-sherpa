@@ -1,7 +1,7 @@
 <template>
   <div class="grey lighten-5" id="services">
     <v-container py-16>
-      <v-row>
+      <v-row >
         <v-col cols="12" class="d-flex justify-center">
           <div class="primary--text text-h4 text-center text-uppercase mb-10">
             Conheça nossos pacotes de serviços

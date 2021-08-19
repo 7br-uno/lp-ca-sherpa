@@ -1,11 +1,11 @@
 <template>
   <v-footer class="primary lighten-1 light-1 pt-6 pb-6 unselectable">
-    <v-container class="pa-0">
-      <v-row no-gutters>
-        <v-col lg="3" md="3" sm="2" cols="5" class="d-flex align-center">
+    <v-container class="pa-0" fluid>
+      <v-row no-gutters class="px-16">
+        <v-col cols="12" class="d-flex align-center justify-center">
           <img src="/sherpa/img/logo-sherpa-1.png" class="logo" />
         </v-col>
-        <v-col lg="6" md="6" sm="10" cols="7" class="d-flex align-center">
+        <!-- <v-col lg="6" md="6" sm="10" cols="7" class="d-flex align-center">
           <p class="w-100 mb-0 text-right text-md-center fs-10-pt white--text">
             <nobr>Siga nossas redes sociais:</nobr>
             <nobr>
@@ -49,20 +49,17 @@
               </v-btn>
             </nobr>
           </p>
-        </v-col>
+        </v-col> -->
         <v-col
-          lg="3"
-          md="3"
-          sm="12"
           cols="12"
-          class="align-center d-none d-md-flex"
+          class="d-flex align-center justify-center"
         >
-          <p class="w-100 mb-0 text-right fs-10-pt white--text">
-            &copy; {{ new Date().getFullYear() }} All rights reserved.
+          <p class="mb-0 text-right fs-10-pt white--text">
+            &copy; {{ new Date().getFullYear() }} Todos os direitos reservados.
           </p>
         </v-col>
         <v-col cols="12 mb-3 mb-md-0">
-          <p class="mt-10 caption white--text mb-16 mb-md-0">
+          <p class="mt-10 caption white--text text-center mb-16 mb-md-0">
             Criada em 2018 a Startup Cliente Agente foi pioneira na introdução
             do MKT de indicações para Corretores de Seguros no Brasil. Em 2019,
             lançamos o Studio Play, plataforma de MKT que permite obter
@@ -96,7 +93,8 @@ export default {
   font-size: 10pt;
 }
 .logo {
-  height: 60px;
+  /* height: 60px; */
+  width: 300px;
   cursor: pointer;
 }
 </style>

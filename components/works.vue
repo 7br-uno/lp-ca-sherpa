@@ -14,7 +14,7 @@
               accent--text
             "
           >
-            Evolua o nivel da sua marca
+            Evolua o nível da sua marca
           </div>
         </v-col>
       </v-row>
@@ -31,6 +31,7 @@
               cols="12"
               sm="6"
               md="4"
+              class="d-flex flex-column align-center"
             >
               <v-hover>
                 <template v-slot:default="{ hover }">
@@ -49,22 +50,23 @@
                       text-center
                     "
                   >
-                    <v-icon x-large color="white">
+                    <!-- <v-icon x-large color="white">
                       {{ work.icon }}
-                    </v-icon>
-                    <div class="text-body-1 mt-2 white--text">
-                      {{ work.title }}
-                    </div>
+                    </v-icon> -->
+                    <img :src="work.icon" style="width: 100px">
                   </div>
                 </template>
               </v-hover>
+                <div class="text-body-1 mt-2 accent--text font-weight-medium">
+                  {{ work.title }}
+                </div>
             </v-col>
           </v-row>
         </v-col>
       </v-row>
       <v-row>
         <v-col offset="3" cols="6" class="d-flex justify-center">
-          <v-btn color="accent" outlined x-large class="px-16 mt-10" href="#services" block> Saiba mais </v-btn>
+          <v-btn color="primary" outlined x-large class="px-16 mt-10" href="#services" style="background: #ffffff; width: 300px"> Conheça as vantagens </v-btn>
         </v-col>
       </v-row>
     </v-container>
@@ -75,18 +77,18 @@ export default {
   data: () => {
     return {
       works: [
-        { title: "Sites", icon: "mdi-web" },
+        { title: "Sites", icon: "/icons/computer (3).png" },
         {
-          title: "Landing Pages personalizadas",
-          icon: "mdi-page-layout-header",
+          title: "Landing Pages",
+          icon: "/icons/landing-page.png",
         },
-        { title: "Blog", icon: "mdi-book-open-page-variant" },
+        { title: "Blog", icon: "/icons/blog.png" },
         {
           title: "Identidade Visual",
-          icon: "mdi-account-supervisor-circle-outline",
+          icon: "/icons/swatches.png",
         },
-        { title: "Marca", icon: "mdi-head-lightbulb-outline" },
-        { title: "Cartões Virtuais", icon: "mdi-card-account-details" },
+        { title: "Marca", icon: "/icons/branding.png" },
+        { title: "Cartões Virtuais", icon: "/icons/smartphone.png" },
       ],
     };
   },

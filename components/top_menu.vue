@@ -6,8 +6,8 @@
     app
     height="80px"
   >
-    <v-container class="pa-0">
-      <v-row no-gutters>
+    <v-container class="pa-0" fluid>
+      <v-row no-gutters class="px-16">
         <v-col cols="12" class="d-flex align-center">
           <a href="#" class="mr-auto">
             <img

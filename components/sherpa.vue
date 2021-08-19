@@ -1,7 +1,7 @@
 <template>
   <div class="white" id="sherpa">
-    <v-container py-16>
-      <v-row>
+    <v-container py-16 fluid>
+      <v-row class="px-16">
         <v-col
           cols="12"
           class="
@@ -19,8 +19,8 @@
         <v-col
           cols="12"
           sm="12"
-          md="6"
-          lg="6"
+          md="5"
+          lg="5"
           class="d-flex align-center justify-center"
         >
           <img src="/sherpa/img/mochila.png" class="responsive_img" alt="" />
@@ -29,10 +29,11 @@
         <v-col
           cols="12"
           sm="12"
-          md="6"
-          lg="6"
-          class="d-flex flex-column text-justify align-center justify-center px-6"
+          md="7"
+          lg="7"
+          class="d-flex flex-column text-left align-center justify-start px-6"
         >
+        <div>
           <div class="body-1 mb-4">
             Após 3 anos oferecendo conteúdo de MKT Digital para Corretores de
             Seguros, entendemos que muitos precisam de um apoio maior.
@@ -45,8 +46,9 @@
             Quando se propõe a subir o Everest, os alpinistas treinam, se
             preparam, se equipam.
           </div>
-          <div class="body-1 mb-4">Invariavelmente precisam de um Sherpa!</div>
-          <v-btn color="primary" outlined x-large class="px-16 mt-10" href="#services" block> Saiba mais </v-btn>
+          <div class="body-1 mb-4 d-flex">Invariavelmente precisam de um Sherpa!</div>
+          <v-btn color="primary" outlined x-large class="px-16 mt-10" href="#services" style="background: #ffffff; width: 300px"> Entenda! </v-btn>
+        </div>
         </v-col>
       </v-row>
     </v-container>
@@ -55,7 +57,7 @@
 
 <style lang="scss" scoped>
 .responsive_img {
-  max-width: 80%;
+  width: 400px;
   height: auto;
 }
 </style>
