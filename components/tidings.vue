@@ -22,7 +22,7 @@
               py-8
             "
           >
-            <v-row>
+            <v-row justify="center">
               <v-col
                 cols="12"
                 md="6"
@@ -73,7 +73,7 @@ export default {
           link: "https://monitormercantil.com.br/cliente-agente-lanca-plataforma-de-videos-para-as-redes-sociais/",
           title:
             "Cliente Agente lança plataforma de vídeos para as redes sociais",
-        }
+        },
       ],
     };
   },

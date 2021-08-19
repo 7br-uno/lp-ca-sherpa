@@ -1,57 +1,52 @@
 <template>
   <div class="grey lighten-3" id="acting">
-    <v-container pt-16>
-      <v-row>
-        <v-col cols="12" class="text-h5 text-center text-uppercase mb-8 primary--text">
-         Redes sociais vão além de postagens!<br />Existem estratégias para que
-        você se conecte com seu público.
+    <v-container pt-16 fluid>
+      <v-row class="px-16">
+        <v-col cols="12" class="d-flex flex-column align-center">
+          <div class="text-h4 text-center text-uppercase primary--text">
+            Redes sociais vão além de postagens!
+          </div>
+          <div class="text-h6 text-center">
+            Existem estratégias para que você se conecte com seu público.
+          </div>
         </v-col>
       </v-row>
-      <v-row class="my-10">
-        <v-col cols="12" sm="12" md="12" lg="6">
-          <v-row>
-            <v-col cols="12" class="d-flex justify-center text-h5 text-center">
-              Atuamos de duas formas
-            </v-col>
-          </v-row>
-          <v-row class="mb-8 px-6">
-            <v-col cols="12" sm="6" md="6" lg="6">
-              <v-card
-                color="accent"
-                class="
-                  pa-4
-                  d-flex
-                  justify-center
-                  text-center
-                  white--text
-                  card__atuacao
-                "
-              >
-                Te ajudamos a se posicionar e definir objetivos
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="6" md="6" lg="6">
-              <v-card
-                color="accent"
-                class="
-                  pa-4
-                  d-flex
-                  justify-center
-                  text-center
-                  white--text
-                  card__atuacao
-                "
-              >
-                Fazemos o serviço braçal para sua jornada ficar mais leve
-              </v-card>
-            </v-col>
-            <v-col cols="12">
-              <v-btn color="accent" outlined x-large class="px-16 mt-10" href="#services" block> Saiba mais </v-btn>
-            </v-col>
-          </v-row>
+      <v-row class="my-10 px-16" justify="center">
+        <v-col cols="12" lg="6" class="d-flex justify-lg-end justify-center">
+          <v-card class="d-flex align-center card__atuacao pa-10" rounded="xl">
+            <img src="/icons-2/target.png" style="width: 100px" class="mr-4"/>
+            <div class="d-flex flex-column justify-center">
+              <div class="text-body-1 primary--text font-weight-bold mb-2">Ambientação</div>
+              <div class="text-body-1 accent--text font-weight-medium">
+                Vamos ajudar no seu posicionamento e a definir os objetivos!
+              </div>
+            </div>
+          </v-card>
         </v-col>
-        <v-col  cols="12" sm="12" md="12" lg="6" class="d-flex justify-center align-center">
-          <img src="/sherpa/img/estrategia.png" class="responsive_img" alt="">
+        <v-col cols="12" lg="6" class="d-flex justify-lg-start justify-center">
+          <v-card class="d-flex align-center card__atuacao pa-10" rounded="xl">
+            <img src="/icons-2/trekking.png" style="width: 100px" class="mr-4"/>
+            <div class="d-flex flex-column justify-center">
+              <div class="text-body-1 primary--text font-weight-bold mb-2">Ritmo</div>
+              <div class="text-body-1 accent--text font-weight-medium">
+                Vamos fazer todo o serviço braçal para a sua jornada ficar mais leve!
+              </div>
+            </div>
+          </v-card>
+        </v-col>
+      </v-row>
+      <v-row class="mb-8">
+        <v-col cols="12" class="d-flex justify-center">
+          <v-btn
+            color="accent"
+            outlined
+            x-large
+            class="px-16 mt-10"
+            href="#services"
+            style="width: 300px"
+          >
+            Ver planos!
+          </v-btn>
         </v-col>
       </v-row>
     </v-container>
@@ -65,6 +60,8 @@ export default {};
 .card__atuacao {
   display: flex;
   align-items: center;
+  height: 220px;
+  max-width: 420px;
 }
 .responsive_img {
   max-width: 80%;
