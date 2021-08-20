@@ -1,7 +1,7 @@
 <template>
   <div class="white" id="sherpa">
-    <v-container py-16 fluid>
-      <v-row class="px-16">
+    <v-container py-16>
+      <v-row>
         <v-col
           cols="12"
           class="
@@ -31,7 +31,8 @@
           sm="12"
           md="7"
           lg="7"
-          class="d-flex flex-column text-left align-center justify-start px-6"
+          class="d-flex flex-column text-lg-left
+                text-center align-center justify-center px-6"
         >
         <div>
           <div class="body-1 mb-4">
@@ -46,7 +47,7 @@
             Quando se propõe a subir o Everest, os alpinistas treinam, se
             preparam, se equipam.
           </div>
-          <div class="body-1 mb-4 d-flex">Invariavelmente precisam de um Sherpa!</div>
+          <div class="body-1 mb-4">Invariavelmente precisam de um Sherpa!</div>
           <v-btn color="primary" outlined x-large class="px-16 mt-10" href="#services" style="background: #ffffff; width: 300px"> Entenda! </v-btn>
         </div>
         </v-col>
@@ -57,7 +58,7 @@
 
 <style lang="scss" scoped>
 .responsive_img {
-  width: 400px;
+  width: 340px;
   height: auto;
 }
 </style>

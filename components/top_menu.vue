@@ -6,8 +6,8 @@
     app
     height="80px"
   >
-    <v-container class="pa-0" fluid>
-      <v-row no-gutters class="px-16">
+    <v-container class="pa-0">
+      <v-row no-gutters>
         <v-col cols="12" class="d-flex align-center">
           <a href="#" class="mr-auto">
             <img
@@ -109,14 +109,14 @@ a {
 }
 .logo-sherpa-1 {
   margin-top: 10px;
-  height: 60px;
+  width: 140px;
   cursor: pointer;
 }
 
 .logo-sherpa {
   margin-top: -30px;
   position: absolute;
-  height: 150px;
+  width: 160px;
   transition: height 0.2s;
   transition-timing-function: ease-in
 }
