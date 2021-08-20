@@ -1,7 +1,7 @@
 <template>
   <v-footer class="primary lighten-1 light-1 pt-6 pb-6 unselectable">
-    <v-container class="pa-0" fluid>
-      <v-row no-gutters class="px-16">
+    <v-container class="pa-0">
+      <v-row no-gutters>
         <v-col cols="12" class="d-flex align-center justify-center">
           <img src="/sherpa/img/logo-sherpa-1.png" class="logo" />
         </v-col>

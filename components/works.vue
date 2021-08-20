@@ -7,11 +7,12 @@
             class="
               d-flex
               justify-center
-              text-h5
-              text-sm-h4 text-uppercase
+              text-sm-h4
+              text-uppercase
               font-weight-bold
               text-center
               accent--text
+              text-h6
             "
           >
             Evolua o nível da sua marca
@@ -21,8 +22,7 @@
       <v-row>
         <v-col
           class="px-16 mt-8"
-          lg="8"
-          offset-lg="2"
+          cols="12"
         >
           <v-row>
             <v-col
@@ -57,7 +57,7 @@
                   </div>
                 </template>
               </v-hover>
-                <div class="text-body-1 mt-2 accent--text font-weight-medium">
+                <div class="text-body-1 mt-2 primary--text font-weight-medium">
                   {{ work.title }}
                 </div>
             </v-col>
