@@ -77,18 +77,18 @@ export default {
   data: () => {
     return {
       works: [
-        { title: "Sites", icon: "/icons/computer (3).png" },
+        { title: "Sites", icon: "/sherpa/icons/computer (3).png" },
         {
           title: "Landing Pages",
-          icon: "/icons/landing-page.png",
+          icon: "/sherpa/icons/landing-page.png",
         },
-        { title: "Blog", icon: "/icons/blog.png" },
+        { title: "Blog", icon: "/sherpa/icons/blog.png" },
         {
           title: "Identidade Visual",
-          icon: "/icons/swatches.png",
+          icon: "/sherpa/icons/swatches.png",
         },
-        { title: "Marca", icon: "/icons/branding.png" },
-        { title: "Cartões Virtuais", icon: "/icons/smartphone.png" },
+        { title: "Marca", icon: "/sherpa/icons/branding.png" },
+        { title: "Cartões Virtuais", icon: "/sherpa/icons/smartphone.png" },
       ],
     };
   },

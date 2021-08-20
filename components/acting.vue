@@ -14,7 +14,7 @@
       <v-row class="my-10 px-16" justify="center">
         <v-col cols="12" lg="6" class="d-flex justify-lg-end justify-center">
           <v-card class="d-flex align-center card__atuacao pa-10" rounded="xl">
-            <img src="/icons-2/target.png" style="width: 100px" class="mr-4"/>
+            <img src="/sherpa/icons-2/target.png" style="width: 100px" class="mr-4"/>
             <div class="d-flex flex-column justify-center">
               <div class="text-body-1 primary--text font-weight-bold mb-2">Ambientação</div>
               <div class="text-body-1 accent--text font-weight-medium">
@@ -25,7 +25,7 @@
         </v-col>
         <v-col cols="12" lg="6" class="d-flex justify-lg-start justify-center">
           <v-card class="d-flex align-center card__atuacao pa-10" rounded="xl">
-            <img src="/icons-2/trekking.png" style="width: 100px" class="mr-4"/>
+            <img src="/sherpa/icons-2/trekking.png" style="width: 100px" class="mr-4"/>
             <div class="d-flex flex-column justify-center">
               <div class="text-body-1 primary--text font-weight-bold mb-2">Ritmo</div>
               <div class="text-body-1 accent--text font-weight-medium">
