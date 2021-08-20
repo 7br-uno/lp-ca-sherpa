@@ -1,7 +1,7 @@
 <template>
   <div class="grey lighten-4 bg-main">
     <v-container py-16 fluid>
-      <v-row style="height: 100vh" class="px-16">
+      <v-row style="height: 100vh" class="px-lg-16 px-2">
         <v-col
           cols="12"
           sm="12"
