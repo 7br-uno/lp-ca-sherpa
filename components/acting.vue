@@ -11,7 +11,7 @@
           </div>
         </v-col>
       </v-row>
-      <v-row class="my-10 px-16" justify="center">
+      <v-row class="my-10" justify="center">
         <v-col cols="12" lg="6" class="d-flex justify-lg-end justify-center">
           <v-card class="d-flex align-center card__atuacao pa-10" rounded="xl">
             <img src="/sherpa/icons-2/target.png" style="width: 100px" class="mr-4"/>
