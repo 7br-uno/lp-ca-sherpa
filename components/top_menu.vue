@@ -12,13 +12,13 @@
           <a href="#" class="mr-auto">
             <img
               v-if="windowTop === 0"
-              src="/sherpa/img/logo-sherpa.png"
+              src="/sherpa/img/sherpa_logo_site.svg"
               class="logo-sherpa"
               alt="Sherpa"
             />
             <img
               v-if="windowTop > 0"
-              src="/sherpa/img/logo-sherpa-1.png"
+              src="/sherpa/img/prancheta.svg"
               class="logo-sherpa-1"
               alt="Sherpa"
             />
@@ -109,14 +109,14 @@ a {
 }
 .logo-sherpa-1 {
   margin-top: 10px;
-  width: 140px;
+  width: 160px;
   cursor: pointer;
 }
 
 .logo-sherpa {
   margin-top: -30px;
   position: absolute;
-  width: 160px;
+  width: 180px;
   transition: height 0.2s;
   transition-timing-function: ease-in
 }
