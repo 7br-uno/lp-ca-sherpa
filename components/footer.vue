@@ -93,7 +93,8 @@ export default {
   font-size: 10pt;
 }
 .logo {
-  width: 260px;
+  /* height: 60px; */
+  width: 300px;
   cursor: pointer;
 }
 </style>

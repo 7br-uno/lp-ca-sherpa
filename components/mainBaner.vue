@@ -21,7 +21,7 @@
             >
               Você quer <br> alcançar o topo?
             </div>
-            <div class="text-h6 text-lg-left text-center ">
+            <div class="text-h6 text-lg-left text-center">
               O Marketing Digital exige dedicação, paciência e o desenvolvimento
               de novas habilidades.
             </div>
