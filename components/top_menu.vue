@@ -24,10 +24,10 @@
             />
           </a>
           <div v-if="$vuetify.breakpoint.mdAndUp">
-            <a href="#sherpa" class="accent--text mr-4">Quem somos</a>
-            <a href="#acting" class="accent--text mr-4">Ações</a>
-            <a href="#services" class="accent--text mr-4">Nossos serviços</a>
-            <a href="#work" class="accent--text">O que fazemos</a>
+            <a href="#sherpa" class="primary--text mr-4">Quem somos</a>
+            <a href="#acting" class="primary--text mr-4">Ações</a>
+            <a href="#services" class="primary--text mr-4">Nossos serviços</a>
+            <a href="#work" class="primary--text">O que fazemos</a>
           </div>
           <div class="d-flex d-md-none float-right">
             <v-menu
