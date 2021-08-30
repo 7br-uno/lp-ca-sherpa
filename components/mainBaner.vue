@@ -1,5 +1,5 @@
 <template>
-  <div class="grey lighten-4 bg-main">
+  <div class="bg-main">
     <v-container py-16>
       <v-row style="height: 100vh" class="mt-2">
         <v-col
@@ -21,11 +21,11 @@
             >
               Você quer <br> alcançar o topo?
             </div>
-            <div class="text-h6 text-lg-left text-center">
+            <div class="text-h6 text-lg-left text-center ">
               O Marketing Digital exige dedicação, paciência e o desenvolvimento
               de novas habilidades.
             </div>
-          <v-btn color="primary" outlined x-large style="background: #ffffff; width: 300px" class="px-16 mt-10" href="#services"> Saiba mais </v-btn>
+          <v-btn color="accent" x-large style="width: 300px" class="px-16 mt-10" href="#services"> Saiba mais </v-btn>
         </v-col>
       </v-row>
     </v-container>
@@ -41,5 +41,6 @@
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
+  background-color: #ebfbfe;
 }
 </style>
