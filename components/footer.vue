@@ -3,7 +3,7 @@
     <v-container class="pa-0">
       <v-row no-gutters>
         <v-col cols="12" class="d-flex align-center justify-center">
-          <img src="/sherpa/img/logo-sherpa-1.png" class="logo" />
+          <img src="/sherpa/img/sherpa_logo_site_rodape.svg" class="logo" />
         </v-col>
         <!-- <v-col lg="6" md="6" sm="10" cols="7" class="d-flex align-center">
           <p class="w-100 mb-0 text-right text-md-center fs-10-pt white--text">
@@ -93,8 +93,7 @@ export default {
   font-size: 10pt;
 }
 .logo {
-  /* height: 60px; */
-  width: 300px;
+  width: 260px;
   cursor: pointer;
 }
 </style>
