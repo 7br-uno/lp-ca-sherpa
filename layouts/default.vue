@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     msg_whatsapp(){
-      window.open('https://api.whatsapp.com/send/?phone=5511940203162&text=Quero saber como evoluir minha marca com projeto Sherpa', "_blank");
+      window.open('https://api.whatsapp.com/send/?phone=5511997343885&text=Quero saber como evoluir minha marca com projeto Sherpa', "_blank");
     }
   },
   mounted(){

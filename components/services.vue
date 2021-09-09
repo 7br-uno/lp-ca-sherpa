@@ -121,7 +121,7 @@ export default {
   methods: {
     msg_whatsapp(msg) {
       window.open(
-        `https://api.whatsapp.com/send/?phone=55119402031620&text=${msg}`,
+        `https://api.whatsapp.com/send/?phone=5511997343885&text=${msg}`,
         "_blank"
       );
     },
